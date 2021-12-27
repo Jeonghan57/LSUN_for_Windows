@@ -15,7 +15,12 @@ Specially thanks Hanhoon Park, my supervisor for revising most of them.
 2. cmd 창주소를 data.py 파일이 있는 폴더로 이동합니다.
 
 
-This content is inspired by the documents below :
-[1] Fisher Yu, Ari Seff, Yinda Zhang, Shuran Song, Thomas Funkhouser and Jianxiong Xiao
-LSUN: Construction of a Large-scale Image Dataset using Deep Learning with Humans in the Loop
-arXiv:1506.03365 [cs.CV], 10 Jun 2015
+
+### Citing LSUN
+
+    @article{yu15lsun,
+        Author = {Yu, Fisher and Zhang, Yinda and Song, Shuran and Seff, Ari and Xiao, Jianxiong},
+        Title = {LSUN: Construction of a Large-scale Image Dataset using Deep Learning with Humans in the Loop},
+        Journal = {arXiv preprint arXiv:1506.03365},
+        Year = {2015}
+    }
