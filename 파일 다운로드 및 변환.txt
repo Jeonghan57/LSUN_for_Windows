@@ -1,15 +1,15 @@
-D드라이브에 모든 lmdb파일 옮김.
+D 드라이브에 모든 lmdb파일 옮김.
 
 운영체제 및 모듈 차이로 인해 download.py 파일을 이용한 인터넷 다운로드가 정상적으로 안됨 --> 인터넷 경로를 브라우저에 입력하여 직접 파일 다운로드함
-data.py 역시 제대로 동작하지 않아, 윈도우에 맞도록 수정하였음
+data.py 역시 제대로 동작하지 않아, 윈도우에 맞도록 수정하였음.
 
-사용 방법
+- 사용 방법
 python data.py export [mdb 폴더명] --out_dir [저장하고 싶은 폴더명] --flat
 예) python data.py export church_outdoor_train_lmdb --out_dir train --flat
--- mdb 파일이 포함된 "church_outdoor_train_lmdb" 폴더를 풀어서 data.py 파일이 있는 폴더 내에 "train"이라는 이름의 폴더를 생성 후, webp 포맷 이미지로 저장
+* mdb 파일이 포함된 "church_outdoor_train_lmdb" 폴더를 풀어서 data.py 파일이 있는 폴더 내에 "train"이라는 이름의 폴더를 생성 후, webp 형태 이미지로 저장
 
 
 webp 이미지를 png 이미지로 변환
 python convert.py --indir [webp 이미지 폴더명] --outdir [새로 저장하고 싶은 png 폴더명]
 예) python convert.py --indir church_outdoor_train --outdir church_outdoor_train_png
--- webp 포맷 이미지를 png 포맷 이미지로 convert하여 저장
+* webp 형태 이미지를 png 형태 이미지로 convert하여 저장
