@@ -4,7 +4,7 @@
 
 __Please refer to this web page for the code below. :__ https://www.yf.io/p/lsun
 
-Special thanks to my supervisor, Hanhoon Park for revising most of them.
+Special thanks to my supervisor, Hanhoon Park.
 
 아래의 코드는 주로 Windows를 사용하는 한국 사양에 맞춰 수정된 LSUN 데이터셋 호출 코드 입니다.   
 (Below is the LSUN dataset call code modified to meet the Korean specifications that mainly use Windows.)
