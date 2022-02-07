@@ -6,7 +6,7 @@ __Please refer to this web page for the code below. :__ https://www.yf.io/p/lsun
 
 Special thanks to my supervisor, Hanhoon Park for revising most of them.
 
-아래의 코드는 주로 Windows를 사용하는 한국인 사양에 맞춰 수정된 LSUN 데이터셋 호출 코드 입니다.   
+아래의 코드는 주로 Windows를 사용하는 한국 사양에 맞춰 수정된 LSUN 데이터셋 호출 코드 입니다.   
 (Below is the LSUN dataset call code modified to meet the Korean specifications that mainly use Windows.)
 
 ## 사용법
@@ -14,7 +14,7 @@ __1. LSUN 공식 웹페이지에서 lmdb 파일을 직접 다운받고 data.py�
 (download.py를 작동시키는 법은 터득 못해서 직접 다운받았습니다.)   
 <hr/>
 
-__2. cmd 창주소를 data.py 파일이 있는 폴더로 이동합니다.__   
+__2. cmd창을 이용해 터미널 경로를 data.py 파일이 있는 폴더로 이동합니다.__   
 ```python
 python data.py export [lmdb 폴더명] --out_dir [저장하고 싶은 폴더명] --flat
 ```
