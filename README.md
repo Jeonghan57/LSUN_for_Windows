@@ -11,7 +11,7 @@ Special thanks to my supervisor, Hanhoon Park.
 
 ## 사용법
 __1. LSUN 공식 웹페이지에서 lmdb 파일을 직접 다운받고 data.py가 있는 폴더로 옮겨 줍니다.__   
-(download.py를 작동시키는 법은 터득 못해서 직접 다운받았습니다.)   
+(Windows에서 download.py를 작동시키는 법은 터득 못해 웹에서 직접 다운받았습니다.)   
 <hr/>
 
 __2. cmd창을 이용해 터미널 경로를 data.py 파일이 있는 폴더로 이동합니다.__   
