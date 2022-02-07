@@ -35,7 +35,7 @@ python convert.py --indir[webp 이미지 폴더명] --outdir [새로 저장하�
 ```python
 python convert.py --indir church_outdoor_train --outdir church_outdoor_train_png
 ```
-이렇게 하면 webp 형태의 이미지를 png 형태 이미지로 convert하여 저장합니다.
+이렇게 하면 "church_out_door_train"폴더 내부의 webp 형태의 이미지를 "church_out_door_train_png"라는 폴더에 png 형태 이미지로 convert하여 저장합니다.
 <hr/>
 
 __4. 마지막으로, 저장한 이미지는 resizing.py 파일을 이용해 크기를 통일하실수 있습니다.__
