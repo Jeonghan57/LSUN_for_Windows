@@ -1,4 +1,4 @@
-# LSUN_on_Windows
+# Download LSUN Dataset in Windows environment
 ![image](https://user-images.githubusercontent.com/77098071/147448785-967a97dd-9bc0-420b-897c-fe4fb57683ec.png) 
 ![image](https://user-images.githubusercontent.com/77098071/147448468-87e8c8dd-f57e-4555-a738-2edfbe513e3a.png)
 
